@@ -135,3 +135,7 @@ Supported Consoles: [(see docs)](https://gbdk.org/docs/api/docs_supported_conso
 - Sega Master System & Game Gear
 - Mega Duck / Cougar Boy
 - NES
+
+# using zig for xmake cross-compilaiton with choosing glibc version
+`xmake f -p cross --toolchain=zig --cross=x86_64-linux-gnu.2.22`
+`xmake build`
